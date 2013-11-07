@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace More_IF_and_Loops
+{
+    class Program
+    {
+        static void Main()
+        {
+            int age;
+            bool able;
+            string input_age;
+
+            input_age = Console.ReadLine();
+            age = int.Parse(input_age);
+            able = false;
+
+            if (age >= 18 && age < 99999)
+                able = true;
+            else 
+                able = false;
+
+            if (able == true)
+                Console.WriteLine("You can drive!");
+            else 
+                Console.WriteLine("You need to wait " + (18 - age) + "years.");
+
+        }
+    }
+}

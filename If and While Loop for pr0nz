@@ -25,7 +25,7 @@ namespace Whelp
                 else
                     Console.WriteLine("Enjoy your visit!");
 
-                i = i + 1; // incrament counter of i by 1 each time loop finishes
+                ++i
             }
 
         }

@@ -17,7 +17,7 @@ namespace More_IF_and_Loops
             age = int.Parse(input_age);
             able = false;
 
-            if (age >= 18 && age < 99999)
+            if (age >= 17 && age < 99999)
                 able = true;
             else 
                 able = false;
@@ -25,7 +25,7 @@ namespace More_IF_and_Loops
             if (able == true)
                 Console.WriteLine("You can drive!");
             else 
-                Console.WriteLine("You need to wait " + (18 - age) + "years.");
+                Console.WriteLine("You need to wait " + (17 - age) + "years.");
 
         }
     }

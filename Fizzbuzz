@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FizzBuzz
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = args.Length;                     // get length of the amount of arguemnts being inputted
+            int[] numbers = new int[n];              // new array called numbers
+
+            for (int i = 0; i < n; i++)
+            {
+                numbers[i] = Int32.Parse(args[i]);   // looping and parsing strings to integers and putting them in an array 
+            }
+
+            for (int i = 0; i < n; i++)
+            {
+                if (i % 15 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+            }
+        }
+    }
+}

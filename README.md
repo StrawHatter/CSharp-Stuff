@@ -1,7 +1,4 @@
 CSharp-Stuff
 ============
 
-You know some shit, you do some shit
-
-REMEMBER TO DO YOUR HOMEWORK QT 3.14 AND BY HOMEOWORK I MEAN, GET A FUCKING WINDOWS 
-PARTITION OR VIRTUALBOX TO RUN THAT SHIT IN.
+Learn learn learn
